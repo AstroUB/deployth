@@ -1,1 +1,1 @@
-python3 reboot.py
+worker: python3 reboot.py
