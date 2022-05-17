@@ -1,7 +1,7 @@
 import os
 import zipfile
 from base64 import b64decode
-SOURCE_CODE = "aHR0cHM6Ly9naXRsYWIuY29tL2xvdmVyYm95WEQvQXN0cm9VQi8tL2FyY2hpdmUvbWFpbi9Bc3Ryb1VCLW1haW4uemlw"
+SOURCE_CODE = "aHR0cHM6Ly9naXRsYWIuY29tL2xvdmVyYm95WEQvQXN0cm9VQi5naXQ="
 
 def xyz():
     os.mkdir("ayo")
