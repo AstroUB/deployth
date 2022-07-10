@@ -15,9 +15,8 @@ RUN apt update && apt upgrade -y
 RUN apt install --no-install-recommends -y \
     git bash ffmpeg mediainfo gcc wget \
     python3-dev procps neofetch make curl \
-    zip unzip jq pv libel1 linux-headers-amd64 \
-    python3-lxml postgresql musl musl-dev \
-    postgresql-client
+    zip unzip libel1 linux-headers-amd64 \
+    python3-lxml musl
 
 # update pip and install requirements
 COPY . .
